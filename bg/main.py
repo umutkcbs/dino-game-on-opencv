@@ -14,13 +14,13 @@ kaktuskonum = 920
 kaktushiz = 20
 puan = 0
 
-dino = cv2.imread("dino.jpg")
+dino = cv2.imread("bg/dino.jpg")
 dino = np.array(dino)
 print(dino.shape)
 #time.sleep(10)
 dino = cv2.resize(dino, (100,100))
 
-cactus = cv2.imread("cac.png")
+cactus = cv2.imread("bg/cac.png")
 cactus = np.array(cactus)
 cactus = cv2.resize(cactus ,(50,100))
 
